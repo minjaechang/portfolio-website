@@ -1,0 +1,15 @@
+.introduction {
+  text-align: center;
+  padding-bottom: 5rem;
+  padding-top: 15rem;
+}
+
+.title {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.msg {
+  font-size: 1.1rem;
+  padding: 0 5rem;
+}

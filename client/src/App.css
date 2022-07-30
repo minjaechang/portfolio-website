@@ -31,23 +31,6 @@ a {
   font-family: 'Barlow', sans-serif;
 }
 
-/* introduction */
-.introduction {
-  text-align: center;
-  padding-bottom: 5rem;
-  padding-top: 15rem;
-}
-
-.introduction__title {
-  font-size: 3rem;
-  margin-top: 0;
-}
-
-.introduction__msg {
-  font-size: 1.1rem;
-  padding: 0 5rem;
-}
-
 /* projects */
 .projects {
   margin: auto;

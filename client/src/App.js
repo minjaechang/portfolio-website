@@ -1,19 +1,12 @@
 import './App.css';
+import Intro from './components/intro/intro';
 import Navbar from './components/navbar/navbar';
 
 function App() {
   return (
     <div class='container'>
       <Navbar />
-
-      {/* <!-- introduction --> */}
-      <section id='about' class='introduction'>
-        <h1 class='introduction__title'>Hey, I'm Minjae</h1>
-        <p class='introduction__msg'>
-          I'm a student web developer living in New Zealand. I love trying new
-          things and solving problems.
-        </p>
-      </section>
+      <Intro />
 
       {/* <!-- projects --> */}
       <section id='works' class='projects'>
