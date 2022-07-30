@@ -1,4 +1,12 @@
 /* navbar */
+
+.logo {
+  font-family: 'Megrim', cursive;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0.4rem;
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -9,24 +17,24 @@
   background-color: white;
 }
 
-.navbar__menu {
+.menu {
   display: flex;
   justify-content: space-around;
   margin: 0;
   padding: 0;
 }
 
-.navbar__item {
+.item {
   margin: 0.5rem;
   padding: 0.5rem;
 }
 
-.navbar__item:hover {
+.item:hover {
   cursor: pointer;
   color: grey;
 }
 
-.navbar__toggleBtn {
+.toggleBtn {
   position: absolute;
   right: 3rem;
   top: 3rem;
