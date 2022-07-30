@@ -1,12 +1,3 @@
-/* navbar */
-
-.logo {
-  font-family: 'Megrim', cursive;
-  font-size: 2rem;
-  margin: 0;
-  padding: 0.4rem;
-}
-
 .navbar {
   position: fixed;
   width: 100%;
