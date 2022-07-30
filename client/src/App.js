@@ -1,69 +1,14 @@
 import './App.css';
 import Intro from './components/intro/intro';
 import Navbar from './components/navbar/navbar';
+import Projects from './components/projects/projects';
 
 function App() {
   return (
     <div class='container'>
       <Navbar />
       <Intro />
-
-      {/* <!-- projects --> */}
-      <section id='works' class='projects'>
-        <h2 class='projects__msg'>These are some of my featured projects</h2>
-        <div class='projects__list'>
-          <div class='project'>
-            <div class='project__img'>
-              <img src='./images/responsive-website.jpeg' alt='project' />
-            </div>
-            <h3 class='project__title'>Online Shopping</h3>
-            <p class='project__description'>
-              Responsive website made of HTML and CSS
-            </p>
-            <a
-              class='project__link'
-              href='https://goofy-murdock-a8cd13.netlify.app'
-              target='_blank'
-              rel='noreferrer'
-            >
-              Link to project
-            </a>
-          </div>
-          <div class='project'>
-            <div class='project__img'>
-              <img src='./images/chatbot.png' alt='project' />
-            </div>
-            <h3 class='project__title'>Coffee Chatbot</h3>
-            <p class='project__description'>Chatbot made of JavaScript only</p>
-            <a
-              class='project__link'
-              href='https://reverent-bell-fa5d38.netlify.app'
-              target='_blank'
-              rel='noreferrer'
-            >
-              Link to project
-            </a>
-          </div>
-          <div class='project'>
-            <div class='project__img'>
-              <img src='./images/reservationizer.jpeg' alt='project' />
-            </div>
-            <h3 class='project__title'>Reservationizr</h3>
-            <p class='project__description'>
-              Website to make reservation to restaurants <br />
-              Made of React, Node/Express + MongoDB
-            </p>
-            <a
-              class='project__link'
-              href='https://priceless-minsky-ec98b8.netlify.app'
-              target='_blank'
-              rel='noreferrer'
-            >
-              Link to project
-            </a>
-          </div>
-        </div>
-      </section>
+      <Projects />
 
       {/* <!-- contact --> */}
       <section id='contact' class='contact'>
