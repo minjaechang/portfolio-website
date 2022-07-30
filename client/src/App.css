@@ -31,33 +31,6 @@ a {
   font-family: 'Barlow', sans-serif;
 }
 
-/* contact */
-.contact {
-  display: flex;
-  justify-content: space-between;
-  padding: 4rem;
-  padding-top: 2rem;
-}
-
-.contact__email,
-.contact__location {
-  margin-left: 0.5rem;
-}
-
-.contact__social-media {
-  font-size: 1.7rem;
-  margin-top: 0.8rem;
-}
-
-.fab {
-  padding: 0.3rem;
-  transition: color 200ms ease-in;
-}
-
-.fab:hover {
-  color: grey;
-}
-
 @media screen and (max-width: 64rem) {
   .projects__list {
     grid-template-columns: 1fr 1fr;
